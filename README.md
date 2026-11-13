@@ -126,12 +126,3 @@ Open Grafana at `http://<EC2-2-HOST>:3000` (with **Prometheus** and **Loki** pre
   ```promql
   up
   ```
-
----
-
-## Roadmap & Pending Setup
-
-- [ ] Install and expose **Node Exporter** (`:9100`) on **EC2-1** (`10.40.1.111`) to activate the `ec2-1-node` Prometheus scrape job.
-- [ ] Configure TLS / reverse proxy and restrict Grafana (`:3000`) access for external viewing.
-- [ ] Move inline Grafana credentials from `compose.yaml` fully into `.env`.
-- [ ] Add Prometheus/Grafana alerting rules (`alerting/configuration-notes.md`) and load-testing helpers (`scripts/traffic-test.sh`).
