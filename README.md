@@ -1,4 +1,4 @@
-# AWS Kubernetes & Observability Stack
+# System & Application Observability
 
 A two-node observability reference architecture on AWS EC2 that separates application workloads from centralized monitoring. **EC2-1** runs containerized applications on MicroK8s alongside **Grafana Alloy** for log collection, while **EC2-2** runs the centralized observability stack (**Prometheus**, **Loki**, **Grafana**, and **Node Exporter**) via Docker Compose.
 
