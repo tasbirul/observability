@@ -106,7 +106,7 @@ kubectl create secret generic linkding-secret -n linkding \
   --from-literal=LD_SUPERUSER_PASSWORD=<your-password>
 kubectl apply -f kubernetes/linkding/linkding.yaml
 
-# Deploy Grafana Alloy DaemonSet
+# Deploy Grafana Alloy DaemonSet.
 kubectl apply -f kubernetes/alloy/alloy.yaml
 ```
 
